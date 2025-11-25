@@ -4274,7 +4274,7 @@ globalConnectionManager:addTween(openTweenStroke)
 openTweenStroke:Play()
 end
 end
--- Garante que todos os ValueLabels de sliders estejam visÌveis apÛs expans„o
+-- Garante que todos os ValueLabels de sliders estejam vis√≠veis ap√≥s expans√£o
 for _, potentialSlider in pairs(element:GetDescendants()) do
 if potentialSlider:IsA("Frame") and potentialSlider:FindFirstChild("ValueLabel") then
 Linux.EnsureValueLabelVisible(potentialSlider)
@@ -7950,4 +7950,4 @@ return {
 }
 end
 
-return Linux
+return Linuxk
